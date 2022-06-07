@@ -1,0 +1,107 @@
+.mainContainer{
+  background-color: rgb(23,23,23);
+  /* 254,255,255       */
+  color: rgb(34, 216, 184);
+  font-family:times helvetica;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0px;
+}
+
+.clearFix{
+  clear: both;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+
+}
+/*Styling main content */
+#mainHead{
+  background-color: rgb(2,3,35);
+  color: rgb(34,216,184);
+  overflow: hidden;
+}
+
+#navBar{
+  background-image: url(../Resources/img5-tech.jpg);
+  background-position: center center;
+  height: 200px;
+
+}
+
+#navBar ul{
+/* border: 2px red solid; */
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+  float: right;
+
+}
+#navBar li{
+
+  list-style: none;
+  display: inline;
+}
+#navBar a{
+  font-size: 25px;
+  text-decoration: none;
+  padding-left:  40px;
+  color: SpringGreen;
+}
+#showCase{
+  background-color: rgb(28,28,28);
+  text-align: center;
+  background-image: url(../Resources/img7-dev.jpg);
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom:  30px;
+  overflow: hidden;
+}
+#showCase h2{
+  color: darkorange;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+#aboutDev{
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#asideBar{
+  background-color: rgb(18, 70, 58);
+  padding: 10px;
+
+
+  box-sizing: border-box;
+}
+@media (max-width:900px) {
+  #aboutDev{
+    width:100%;
+    float:none;
+  }
+  #asideBar{
+    width:100%;
+    float:none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#mainFooter p{
+  padding-bottom: 2px;
+  margin-bottom:  0px;
+  text-align: center;
+}
